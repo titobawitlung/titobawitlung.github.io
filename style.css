@@ -1,0 +1,24 @@
+body {
+  background-image: url(saw.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 10px;
+  background-attachment: fixed;
+}
+
+h3{
+	font-family: Arial;
+	font-style: italic;
+	font-size: 20px;
+}
+
+h2{
+	font-family: Arial;
+	font-style: italic;
+	font-size: 40px;
+}
+p{
+	font-family: Arial;
+	font-style: italic;
+	font-size: 15px;
+}

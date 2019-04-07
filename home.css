@@ -1,0 +1,45 @@
+body {
+  background: url(image/theme4.jpg);
+  background-position: right top;
+  margin-right:10px;
+  background-attachment: fixed;
+  background: rgba(1,10,6,5);
+}
+
+h3{
+	font-family: Arial;
+	font-style: italic;
+	font-size: 20px;
+	color:yellow;
+}
+
+h2{
+	font-family: Arial;
+	font-style: italic;
+	font-size: 40px;
+	color:yellow;
+}
+p{
+	font-family: Arial;
+	font-style: italic;
+	font-size: 15px;
+}
+
+button{
+	text-align: center;
+	font-size: 15px;
+	border-radius: 50px;
+	padding:10px 20px 10px 20px;
+	font-style: italic;
+}
+p{
+	text-align: center;
+	text-decoration: none;
+}
+h4{
+	font-size: 20px;
+}
+
+a{
+	color: red;
+}
