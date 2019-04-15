@@ -1,23 +1,25 @@
 body {
-  background: url(image/theme4.jpg);
+  background: url(image/TK.jpg);
   background-position: right top;
   margin-right:10px;
   background-attachment: fixed;
-  background: rgba(1,10,6,5);
+  background-repeat: repeat-y;
+  background-size: 100%;
+
 }
 
 h3{
 	font-family: Arial;
 	font-style: italic;
 	font-size: 20px;
-	color:yellow;
+	color:#b0e0e6;
 }
 
 h2{
 	font-family: Arial;
 	font-style: italic;
 	font-size: 40px;
-	color:yellow;
+	color:#ff8c00;
 }
 p{
 	font-family: Arial;

@@ -1,10 +1,14 @@
 div{
 	font-size: 50px;
 	font-style: italic;
-	color:#fffff0;
+	color:yellow;
 	text-align: center;
 	height: 20px;
 	text-decoration: underline;
+}
+
+h3{
+	color: white
 }
 
 p{
@@ -25,10 +29,15 @@ a{
 }
 
 body{
-	background-image: url(image/1.jpg);
+	background-image: url(image/TK.jpg);
+	background-size: 100%;
 }
 
 hr{
 	color: green;
 	height: 10px;
+}
+
+.btn{
+	background: blue;
 }
