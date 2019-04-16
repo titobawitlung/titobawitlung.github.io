@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.hom{
+  font-style: bold;
+}
+
 body{
   background:grey;
   color:#485e74;
