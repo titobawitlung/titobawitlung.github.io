@@ -23,14 +23,15 @@ function submitForm(e){
   var name = getInputVal('name');
   var company = getInputVal('company');
   var email = getInputVal('email');
-  var phone = getInputVal('phone');
-  var message = getInputVal('message');
-  var landmark = getInputVal('landmark');
   var pin = getInputVal('pin');
-  var quantity = getInputVal('quantity')
-
+  var landmark = getInputVal('landmark');
+  var phone = getInputVal('phone');
+  var quantity = getInputVal('quantity');
+  var message = getInputVal('message');
+  
+  
   // Save message
-  saveMessage(name, company, email, phone, message);
+  saveMessage(name, company, email, pin, landmark, phone, quantity, message);
 
   // Show alert
   document.querySelector('.alert').style.display = 'block';
@@ -50,15 +51,16 @@ function getInputVal(id){
 }
 
 // Save message to firebase
-function saveMessage(name, company, email, phone, message){
+function saveMessage(name, company, email, pin, landmark, phone, quantity, message){
   var newMessageRef = messagesRef.push();
   newMessageRef.set({
     name: name,
     company:company,
     email:email,
-    phone:phone,
-    message:message,
+    pin:pin,
     landmark:landmark,
-    pin:pin
+    phone:phone,
+    quantity:quantity,
+    message:message
   });
 }
