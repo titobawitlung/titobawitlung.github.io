@@ -10,6 +10,10 @@ body{
   padding:1em;
 }
 
+h3{
+  color: blue;
+}
+
 a{
   text-decoration: none;
   color:black;
@@ -118,8 +122,9 @@ button{
   color: black;
 }
 
+.quantity{
+  padding-right: 70%;
 }
-
 
 /* LARGE SCREENS */
 @media(min-width:700px){

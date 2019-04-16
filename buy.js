@@ -25,6 +25,9 @@ function submitForm(e){
   var email = getInputVal('email');
   var phone = getInputVal('phone');
   var message = getInputVal('message');
+  var landmark = getInputVal('landmark');
+  var pin = getInputVal('pin');
+  var quantity = getInputVal('quantity')
 
   // Save message
   saveMessage(name, company, email, phone, message);
@@ -54,6 +57,8 @@ function saveMessage(name, company, email, phone, message){
     company:company,
     email:email,
     phone:phone,
-    message:message
+    message:message,
+    landmark:landmark,
+    pin:pin
   });
 }
